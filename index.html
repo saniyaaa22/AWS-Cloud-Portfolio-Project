@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Saniya | Cloud Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Saniya</h2>
+    <ul>
+        <li onclick="scrollToSection('home')">Home</li>
+        <li onclick="scrollToSection('skills')">Skills</li>
+        <li onclick="scrollToSection('contact')">Contact</li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+
+        <!-- Text -->
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Saniya</span></h1>
+            <h2>Aspiring Cloud Professional ☁️</h2>
+            <p>
+                Hands-on experience in AWS services and strong business understanding.
+            </p>
+            <button onclick="showAlert()">Explore My Work</button>
+        </div>
+
+        <!-- Image -->
+        <div class="hero-image">
+            <!-- Use S3 link OR local file -->
+            <img src="cloud.JPG" alt="Cloud Project">
+        </div>
+
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>☁️ AWS Cloud</h3>
+            <p>EC2, S3, RDS, CloudWatch, IAM</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>⚙️ Cloud Management</h3>
+            <p>Load Balancing, Auto Scaling, AWS CLI</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>🐍 Programming</h3>
+            <p>Basic Python</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>📊 Business Skills</h3>
+            <p>Finance, Budgeting, Analysis</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>💼 Professional Skills</h3>
+            <p>Communication, Problem Solving, Teamwork</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: saniyaupadhyay04@gmail.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Saniya | Cloud Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
